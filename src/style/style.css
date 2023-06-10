@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Satisfy&display=swap');
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(223, 209, 187, 0.874);
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 30px;
+    gap: 50px;
+}
+
+.logo img{
+    max-width: 200px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: end;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links>li>a{
+    color: rgb(104, 77, 47);
+    text-decoration: solid;
+    font-family: 'Geologica', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.footer-infos {
+    font-family: 'Geologica', sans-serif;
+    color: rgb(21, 44, 21);
+    font-size: 14px;
+    max-width: 25ch;
+}
+
+.footer-liens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+}
+
+.footer-liens a {
+    text-decoration: none;
+    color: rgb(21, 44, 21);
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header h1{
+    color: rgb(104, 77, 47);
+    font-family: 'Satisfy', cursive;
+    padding-bottom: 20px;
+}
+
+.header p{
+    font-family: 'Geologica', sans-serif;
+    color: rgb(21, 44, 21);
+    font-size: 20px;
+    max-width: 60ch;
+}
+
+.btn-large{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    color:  white;
+    background-color: rgb(98, 133, 98);
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 180px;
+    height: 40px;
+}
+
+.btn-large:hover , .btn-sm:hover {
+    background-color: rgb(104, 77, 47);
+}
+
+.btn-sm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    color:  white;
+    background-color: rgb(98, 133, 98);
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+}
+
+.btn-medium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    color:  white;
+    background-color: rgb(98, 133, 98);
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+}
+
+.container-produit {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px 0 100px;
+}
+
+.container-title h2 {
+    color: rgb(104, 77, 47);
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container-cartes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-family: 'Geologica', sans-serif;
+    color: rgb(21, 44, 21);
+    border: solid 1px rgb(104, 77, 47);
+    border-radius: 8px;
+    min-width: fit-content;
+    min-height: 440px;
+}
+
+.carte h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+.carte p {
+    max-width: 20ch;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.carte-p{
+    margin-bottom: 2px;
+}
+
+.carte img {
+    width: 150px;
+    height: 150px;
+    border: solid 1px  rgb(104, 77, 47);
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.carte-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.carte-btn a {
+    text-decoration: none;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.form-title h2 {
+    color: rgb(104, 77, 47);
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: fit-content;
+    border: solid 1px  rgb(104, 77, 47);
+    border-radius: 4px;
+    padding: 20px;
+    font-family: 'Geologica', sans-serif;
+    color: rgb(21, 44, 21);
+}
+
+.container-form div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.form-btn {
+    margin: 0 auto;
+}
+
+.item-form {
+    display: flex;
+    gap: 10px;
+   
+}
+
+.item-form>input{
+    flex: 1;
+}
+
+.lien {
+    font-family: 'Geologica', sans-serif;
+    color: rgb(21, 44, 21);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lien:hover {
+    color: rgb(104, 77, 47);
+}
+
+.alert {
+    background-color: rgb(98, 133, 98);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+  

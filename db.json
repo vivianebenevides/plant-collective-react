@@ -1,0 +1,76 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "Monstera",
+      "description": "Plante intérieure Monstera Green Galaxy de Costa, pot décoratif de 6 po",
+      "prix": 19,
+      "categorie": "Tropical",
+      "photo": "img/Plante1.jpg"
+    },
+    {
+      "id": 2,
+      "nom": "Swiss cheese",
+      "description": "Plante intérieure Swiss cheese plant, tropicale, 6 po, verte, pot décoratif",
+      "prix": 29,
+      "categorie": "Tropical",
+      "photo": "./img/Plante2.jpg"
+    },
+    {
+      "id": 3,
+      "nom": "Costus Erythrophyllus",
+      "description": "Plante intérieure Costus Erythrophyllus de Costa Nursery, pot de 6 po",
+      "prix": 25,
+      "categorie": "Tropical",
+      "photo": "./img/Plante3.jpg"
+    },
+    {
+      "id": 4,
+      "nom": "Sterling",
+      "description": "Plante intérieure Sterling tropical en pot de céramique 6 po",
+      "prix": 15,
+      "categorie": "Rampante",
+      "photo": "./img/Plante4.jpg"
+    },
+    {
+      "id": 5,
+      "nom": "Calathéa",
+      "description": "Plante intérieure Calathéa musaica Network, pot en céramique de 6",
+      "prix": 19,
+      "categorie": "Tropical",
+      "photo": "./img/Plante5.jpg"
+    },
+    {
+      "id": 6,
+      "nom": "Bégonias",
+      "description": "Plante intérieure Bégonias en pot de céramique décoratif, 6 po",
+      "prix": 29,
+      "categorie": "Tropical",
+      "photo": "./img/Plante6.jpg"
+    },
+    {
+      "id": 7,
+      "nom": "Philodendron",
+      "description": "Plante intérieure Philodendron, déesse, doré, 6 po, pot décoratif",
+      "prix": 25,
+      "categorie": "Tropical",
+      "photo": "./img/Plante7.jpg"
+    },
+    {
+      "id": 8,
+      "nom": "Philodendron",
+      "description": "Plante intérieure Philodendron Birkin, 6 po, verte, pot décoratif",
+      "prix": 22,
+      "categorie": "Tropical",
+      "photo": "./img/Plante8.jpg"
+    },
+    {
+      "id": 9,
+      "nom": "Ficus Bambino",
+      "description": "Plante intérieure Ficus Bambino, tropical, pot en céramique de 6 po",
+      "prix": 29,
+      "categorie": "Tropical",
+      "photo": "./img/Plante9.jpg"
+    }
+  ]
+}
